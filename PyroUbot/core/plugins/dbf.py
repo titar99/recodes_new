@@ -333,7 +333,7 @@ async def expired_cek(client, message):
         await message.reply(f"{user_id} ʙᴇʟᴜᴍ ᴅɪᴀᴋᴛɪғᴋᴀɴ.")
     else:
         remaining_days = (expired_date - datetime.now()).days
-        await message.reply(f"<blockquote>{user_id} ᴀᴋᴛɪғ ʜɪɴɢɢᴀ {expired_date.strftime('%d-%m-%Y %H:%M:%S')}. sɪʟᴀʜᴋᴀɴ ᴛᴇʀᴍᴀsᴜᴋ ᴍᴏᴛɪᴊ ᴀᴅᴀ {remaining_days} ʜᴀʀɪ.</blockquote>")
+        await message.reply(f"<blockquote>{user_id} ᴀᴋᴛɪғ ʜɪɴɢɢᴀ {expired_date.strftime('%d-%m-%Y %H:%M:%S')}. ᴍᴀsɪʜ ᴀᴅᴀ ᴡᴀᴋᴛᴜ {remaining_days} ʜᴀʀɪ.</blockquote>")
 
 
 async def un_expired(client, message):
