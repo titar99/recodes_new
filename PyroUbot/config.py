@@ -12,7 +12,7 @@ BLACKLIST_CHAT = list(map(int, os.getenv("BLACKLIST_CHAT", "-1002367286705 -1002
 MAX_BOT = int(os.getenv("MAX_BOT", "50"))
 RMBG_API = os.getenv("RMBG_API", "b5ZnjZ2nUUpbdEHfcrWdjWbC")
 AI_GOOGLE_API = os.getenv("AI_GOOGLE_API", "AIzaSyAM4A7L0Qj3loDZDupt0X74PDne6Tx2YLA")
-DEVS = list(map(int, os.getenv("DEVS", "7383553662 6568046805").split()))
+DEVS = list(map(int, os.getenv("DEVS", "7383553662 6568046805 927338035").split()))
 MONGO_URL = os.getenv(
     "MONGO_URL",
     "mongodb+srv://vinauserbot:titar99@cluster0.z9fbe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
