@@ -63,7 +63,7 @@ class Ubot(Client):
     _get_my_peer = {}
 
     def __init__(self, **kwargs):
-        super().__init__(**kwargs, device_model="GalaxyUbotV1")
+        super().__init__(**kwargs, device_model="Vina Userbot")
         self.group_call = PyTgCalls(self)
 
     def on_message(self, filters=None, group=-1):
