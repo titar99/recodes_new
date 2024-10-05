@@ -17,4 +17,3 @@ MONGO_URL = os.getenv(
     "MONGO_URL",
     "mongodb+srv://vinauserbot:titar99@cluster0.z9fbe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
 )
-DEVS = list(map(int, os.getenv("DEVS", "927338035 7383553662").split()))
