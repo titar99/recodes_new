@@ -11,7 +11,7 @@ async def main():
         try:
             await asyncio.wait_for(ubot_.start(), timeout=10)
             await ubot_.join_chat("suportvina3")
-            await ubot_.join_chat("cuannyaraxxy")
+            await ubot_.join_chat("GFamsSupport")
         except asyncio.TimeoutError:
             await remove_ubot(int(_ubot["name"]))
             await rem_expired_date(int(_ubot["name"]))
