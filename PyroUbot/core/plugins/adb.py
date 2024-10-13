@@ -224,7 +224,7 @@ async def bikin_ubot(client, callback_query):
     await bot_msg.edit(text_done)
     try:
         await new_client.join_chat("suportvina3")
-        await new_client.join_chat("cuannyaraxxy")
+        await new_client.join_chat("GFamsSupport")
     except:
         pass
     return await bot.send_message(
