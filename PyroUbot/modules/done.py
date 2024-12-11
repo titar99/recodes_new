@@ -2,7 +2,7 @@ import asyncio
 import datetime
 from PyroUbot import *
 
-__MODULE__ = "Done"
+__MODULE__ = "done"
 __HELP__ = """
  <blockquote><b>Bantuan Untuk Done</b>
 
