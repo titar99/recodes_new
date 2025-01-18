@@ -15,5 +15,5 @@ AI_GOOGLE_API = os.getenv("AI_GOOGLE_API", "AIzaSyAM4A7L0Qj3loDZDupt0X74PDne6Tx2
 DEVS = list(map(int, os.getenv("DEVS", "7383553662 6568046805 927338035").split()))
 MONGO_URL = os.getenv(
     "MONGO_URL",
-    "mongodb+srv://vinauserbot:titar99@cluster0.z9fbe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+    "mongodb+srv://vina:<db_password>@cluster0.jdjpg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
 )
