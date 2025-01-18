@@ -1,7 +1,7 @@
 mytoolsID==0.5.6
-dotenv
-git+https://github.com/naya1503/mypyrogram@dev
+git+https://github.com/tuneinhere/pyro
 tgcrypto
+dotenv
 psutil
 motor
 dnspython
@@ -22,7 +22,7 @@ aiohttp
 gpytranslate
 gtts
 telegraph
-pyromod==1.5
+pyromod==1.0
 youtube-search-python
 pymongo
 yt-dlp
