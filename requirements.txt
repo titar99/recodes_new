@@ -1,7 +1,6 @@
 mytoolsID==0.5.6
 git+https://github.com/tuneinhere/pyro
 tgcrypto
-dotenv
 psutil
 motor
 dnspython
